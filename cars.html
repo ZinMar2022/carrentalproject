@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/brands.min.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/solid.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+       
+        
+        <div class="nav-links" id="navLinks">
+           <div class="logo">
+            <img src="image/logo1.png" alt="">
+           </div>                          
+        
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cars.html">CARS</a></li>
+                <li><a href="driver.html">DRIVERS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Avilable Cars</h1>
+</section>
+<!-- Cars -->
+<section class="cars">
+    <h1>Avilable Cars</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="row">
+        <div class="car-col">
+            <img src="image/bmw2.png">
+            <div class="layer">
+                <h3>BMW</h3>
+            </div>
+        </div>
+        <div class="car-col">
+            <img src="image/porche.png">
+            <div class="layer">
+                <h3>Porche</h3>
+            </div>
+        </div>
+        <div class="car-col">
+            <img src="image/landcruiser.jfif">
+            <div class="layer">
+                <h3>Landcruiser</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore <br>temporibus cupiditate modi illo assumenda rerum nulla saepe aut reiciendis in quis ratione, culpa, obcaecati, dolor fugiat delectus necessitatibus fuga?</p>
+
+
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-line"></i>
+</div>
+    <p>contact us <i class="fas fa-heart"></i> without hesitation!</p>
+</section>
+
+
+<!-- javascript toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
